@@ -1,5 +1,5 @@
 import NavigationBar from "../components/navigationBar";
-import HeroPage from "../containers/heroPage";
+import HeroPage from "../containers/HeroPage";
 import ContentPage from "../containers/contentPage";
 import CategoryPage from "../containers/categoryPage";
 import Footer from "../components/footer";
