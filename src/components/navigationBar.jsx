@@ -48,11 +48,11 @@ function NavigationBar() {
       <nav
         ref={mainNavBar}
         style={{
-          backdropFilter: "blur(14px) saturate(100%)",
-          WebkitBackdropFilter: "blur(14px) saturate(100%)",
-          backgroundColor: "rgba(6, 0, 11, 0.6)",
+          backdropFilter: "blur(18px) saturate(0%)",
+          WebkitBackdropFilter: "blur(18px) saturate(0%)",
+          backgroundColor: "rgba(18, 18, 18, 0.75)",
         }}
-        className="flex flex-col lg:flex-row lg:justify-around md:justify-start w-screen sm:max-w-screen py-4 text-xl lg:px-80 px-5 sticky h-full z-50"
+        className="flex lg:flex-row lg:justify-around md:justify-start w-screen sm:max-w-screen py-4 text-xl lg:px-80 px-5 sticky h-full z-50"
       >
         {/* Mobile Menu Icon */}
         <div className="lg:hidden flex items-center">
@@ -84,9 +84,9 @@ function NavigationBar() {
       <nav
         ref={navbarMobile}
         style={{
-          backdropFilter: "blur(14px) saturate(100%)",
-          WebkitBackdropFilter: "blur(14px) saturate(100%)",
-          backgroundColor: "rgba(6, 0, 11, 0.6)",
+            backdropFilter: "blur(18px) saturate(0%)",
+            WebkitBackdropFilter: "blur(18px) saturate(0%)",
+            backgroundColor: "rgba(18, 18, 18, 0.75)",
         }}
         className="hidden top-0 absolute z-50 h-screen w-10/12 rounded-r-lg p-5"
       >
