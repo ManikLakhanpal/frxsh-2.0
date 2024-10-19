@@ -1,8 +1,7 @@
-import Image from "next/image";
 import NavigationBar from "@/components/navigationBar";
 import HeroPage from "@/containers/heroPage";
 import ContentPage from "@/containers/contentPage";
-import CategoryPage from "@/containers/CategoryPage";
+import CategoryPage from "@/containers/categoryPage";
 import Footer from "@/components/footer";
 
 export default function Home() {
