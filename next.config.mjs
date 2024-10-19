@@ -1,9 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     images: {
-        domains: [
-            "w16manik.blr1.cdn.digitaloceanspaces.com",
-        ],
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'w16manik.blr1.cdn.digitaloceanspaces.com'
+            }
+        ]
     }
 };
 

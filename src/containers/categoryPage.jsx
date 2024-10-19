@@ -2,8 +2,8 @@ import Image from "next/image";
 
 function CategoryPage() {
   return (
-    <section id="products" class="products">
-      <div class="title">Products</div>
+    <section id="products" className="products">
+      <div className="title">Products</div>
       <div className="product-category-grid">
         {/* <!-- Showcase product here --> */}
         <div className="product">
